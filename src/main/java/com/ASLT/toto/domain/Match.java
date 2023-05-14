@@ -24,11 +24,4 @@ public class Match {
 
     BigDecimal secondOptionOdds;
 
-
-
-
-
-
-
-
 }
