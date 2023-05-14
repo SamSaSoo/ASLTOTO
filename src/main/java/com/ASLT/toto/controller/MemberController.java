@@ -21,6 +21,11 @@ public class MemberController {
         return memberRepository.save(member);
     }
 
+    @GetMapping("/{id}")
+    public Member findMember(@PathVariable Long id) {
+        return memberRepository.findById(id);
+    }
+
 
 
 
